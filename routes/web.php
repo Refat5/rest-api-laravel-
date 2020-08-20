@@ -36,7 +36,11 @@
 
 // });
 
-$router->post('/{nvalue}/{age}[/{city}]',function($nvalue,$age,$city=null){
-    return $nvalue.$age.$city;
+// $router->post('/{nvalue}/{age}[/{city}]',function($nvalue,$age,$city=null){
+//     return $nvalue.$age.$city;
 
-});
+// });
+
+
+// $router->get('/{name}','MYController@hello');
+$router->get('/','MYController@hello');
